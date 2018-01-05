@@ -9,3 +9,6 @@ class Person:
 p1 = Person('xiaoming', 10, '男', '中国')   # 在实例化中初始化属性
 
 p2 = Person('xiaohua', 11, '女', '中国台湾')
+
+print(p1.age)
+print(p1.name)
