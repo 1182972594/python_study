@@ -11,6 +11,7 @@ class Dog(Anminal):
         self.sleep = sleep
         self.jump = jump
 
+
 d1 = Dog('eat bones', 'run away', 'sleep night', 'jump away')
 
 print(d1.eat)
