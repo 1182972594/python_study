@@ -1,4 +1,7 @@
 # !user/bin/python
+"""
+python中类的继承
+"""
 class Anminal(object):
     def __init__(self, eat, run):
         self.eat = eat
@@ -7,7 +10,7 @@ class Anminal(object):
 
 class Dog(Anminal):
     def __init__(self, eat, run, sleep, jump):
-        super(Anminal.__init__(eat, run))
+        super(Dog, self).__init__(eat, run)
         self.sleep = sleep
         self.jump = jump
 
